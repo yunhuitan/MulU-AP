@@ -1,29 +1,20 @@
-#MulU-AP
-Overview
+# MulU-AP
+
+## Overview
 This project implemented experiments related to the manuscript "Synergistic Estimation of Six Air Pollutant Concentrations Using a Multitask Network with Uncertain Losses: A Case Study of Sichuan Province, China". The project aims to proposed a multitask neural network to collaboratively estimate seamless six common atmospheric pollutants (PM10, PM2.5, O₃, CO, NO₂, and SO₂) concentration from remote sensing data.
-# 项目名称
 
-## 简介
-简要介绍这个项目是做什么的。
 
-## 数据说明
-- 数据来源
-- 数据格式
-- 时间范围
+## Structure
+The ZIP archive includes six Python (.py) files:
+pollution_multitask.py, pollution_multitask_predcsv.py, pollution_multitask_predcsv_plot.py,
+pollution_multitask_shap.py, pollution_multitask_shap_importance.py, and pollution_multitask_shap_scatter.py.They correspond to Python scripts for multitask neural network training, prediction, visualization, SHAP-based interpretation, and SHAP feature-importance visualization, respectively.
 
-## 方法
-- 方法一
-- 方法二
-- 模型说明
 
-## 结果
-简要说明主要结果。
+## Environment
+- Python 3.12
+- PyTorch 2.6.0
+  
 
-## 依赖环境
-- Python 3.9
-- numpy
-- pandas
-
-## 联系方式
-作者：XXX  
-邮箱：xxx@xxx.com
+## Contact
+Author：Yunhui Tan
+Email：tanyunhui@cug.edu.cn
